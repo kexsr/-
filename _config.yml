@@ -1,0 +1,15 @@
+title: Моя база знаний
+description: База знаний, созданная из заметок Obsidian
+baseurl: "" 
+url: "https://kexsr.github.io" 
+theme: minima
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+header_pages:
+  - index.md
+
+include:
+  - разделы-заметки/**/*.md

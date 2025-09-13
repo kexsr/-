@@ -1,0 +1,85 @@
+{
+	"nodes":[
+		{
+			"id":"d695d709bfd718d0",
+			"type":"text",
+			"text":"# Задачи КА",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-180,
+			"y":-400,
+			"width":260,
+			"height":60,
+			"color":"6"
+		},
+		{
+			"id":"dcc78c5ae4cf9918",
+			"type":"text",
+			"text":"## Прикладные",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-475,
+			"y":-300,
+			"width":330,
+			"height":60,
+			"color":"6"
+		},
+		{
+			"id":"25e82273e5baaa14",
+			"type":"text",
+			"text":"## Научные",
+			"styleAttributes":{"textAlign":"center"},
+			"x":45,
+			"y":-300,
+			"width":330,
+			"height":60,
+			"color":"6"
+		},
+		{
+			"id":"9ad2a46e92769c67",
+			"type":"text",
+			"text":"- астрономические наблюдения\n- космическая погода\n- изучение влияния невесомости, вакуума и радиации\n- межпланетные миссии\n- технологические исследования и эксперименты",
+			"styleAttributes":{},
+			"x":45,
+			"y":-220,
+			"width":330,
+			"height":220
+		},
+		{
+			"id":"ee7a4ce8914dcc4d",
+			"type":"text",
+			"text":"- навигация\n- картографирование\n- мониторинг поверхности\n- связь",
+			"styleAttributes":{},
+			"x":-475,
+			"y":-220,
+			"width":330,
+			"height":140
+		}
+	],
+	"edges":[
+		{
+			"id":"9604ce5ac0dabcac",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"d695d709bfd718d0",
+			"fromSide":"left",
+			"toNode":"dcc78c5ae4cf9918",
+			"toSide":"top",
+			"color":"6"
+		},
+		{
+			"id":"97ad41817cd3ac77",
+			"styleAttributes":{"pathfindingMethod":"square"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"d695d709bfd718d0",
+			"fromSide":"right",
+			"toNode":"25e82273e5baaa14",
+			"toSide":"top",
+			"color":"6"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

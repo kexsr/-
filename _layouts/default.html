@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "ru-RU" }}">
+
+  {%- include head.html -%}
+
+  <body>
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="sidebar">
+          <nav class="sidebar-nav">
+            {% for item in site.data.navigation %}
+              <a href="{{ item.link | relative_url }}" class="sidebar-link">{{ item.name }}</a>
+            {% endfor %}
+          </nav>
+        </div>
+        <div class="content">
+          {{ content }}
+        </div>
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+  </body>
+
+</html>
